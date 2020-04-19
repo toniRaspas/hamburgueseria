@@ -455,6 +455,18 @@ main section .columna:hover .marco, main section .columna:hover img{
 .todot
 {display:flex;
 justify-content: space-around;}
-#ourblog
+.desk
 {
+    display: none;
+}
+@media (min-width: 62.750em)
+{
+    .desk
+    {
+        display: inline-block;
+    }
+    .bloque
+{
+    width: 30%;
+}
 }
