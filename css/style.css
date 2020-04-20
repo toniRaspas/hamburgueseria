@@ -403,3 +403,33 @@ main section .columna:hover .marco, main section .columna:hover img{
 
 
 }
+
+main #todaymenu
+{
+    background-color: #1c1c1c;
+}
+#todaymenu h2
+{
+    color: white;
+}
+.bloquemenu
+{
+    margin: 0 10%;
+}
+#todaymenu ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}    
+#todaymenu ul li a{
+    display: block;
+   padding: 0.7em;/*este padding es importante. Debería hacer una clase*/
+   text-decoration: none;
+   color: white;
+   font-weight: bold; 
+}
+#todaymenu ul li a:hover
+{
+    background-color: var(--color-principal);
+    border-radius: 4px;
+}
