@@ -404,6 +404,7 @@ main section .columna:hover .marco, main section .columna:hover img{
 
 }
 
+<<<<<<< HEAD
 main #todaymenu
 {
     background-color: #1c1c1c;
@@ -573,3 +574,71 @@ float: right;
 
    
 
+=======
+.bloque
+{
+    width: 40%;
+    position: relative;
+    display: inline-block;
+}
+.fechamen
+{
+  position: absolute;
+  top: 0em;
+  background-color:rgba(250, 87, 58, 0.6);
+    text-align: center;
+    width: 5em;
+    height:5em;
+}
+.fechamen p
+{
+    
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding:0;
+    margin-top: 0.6em;
+}
+.enlace
+{
+    font-weight: bold;
+}    
+.enlace i
+{
+    border: none;
+    font-size: 1em;
+}
+.texto span
+{
+    color: var(--color-principal);
+    font-weight: bold;
+    margin-top: 1.3em;
+}
+.texto p
+{
+  margin-top: 1.3em;
+  line-height: 1.3em;
+}
+.texto h3
+{
+    font-size: 1.5em;
+}
+.todot
+{display:flex;
+justify-content: space-around;}
+.desk
+{
+    display: none;
+}
+@media (min-width: 62.750em)
+{
+    .desk
+    {
+        display: inline-block;
+    }
+    .bloque
+{
+    width: 30%;
+}
+}
+>>>>>>> blog
