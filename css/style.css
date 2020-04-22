@@ -509,10 +509,13 @@ float: right;
 }
 @media (min-width: 62.750em){
     main #todaymenu article{
+        padding-top: 7%;
        
       
     }
-   }/**/
+    #todaymenu
+    {margin: 0 auto;}
+   /**/
 
     .upper
     {display: none;}
@@ -524,13 +527,14 @@ float: right;
     .contFlex
     {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
         
     }
     .mitadIzq
     {
         display: inline-block;
-        width: 15%;
+        width: 30%;
+        
     }
        
     .producto 
@@ -546,7 +550,7 @@ float: right;
 }
 .mitadIzq div
 {
-    margin-top: 80%;
+    margin-top: 50%;
 }
 .mitadDer
 {
@@ -555,10 +559,17 @@ float: right;
 }
 .alintext
 {   width: 60%;
+    margin-right: 8%;
+}
+#todaymenu .producto h4 span
+{
+  
+    margin-left: 2em;
+    float: none;
+}
 }
 
 
-  }
 
    
 
